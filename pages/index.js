@@ -52,16 +52,36 @@ export default function Home() {
               Follow me on Linkedin to stay up to date.
             </p>
           </a>
+
+          <a
+            href="https://instagram.com/coffeeprogrammer"
+            className={styles.card}
+          >
+            <h3>Instagram 📸 &rarr;</h3>
+            <p>Follow me as I share photo's of my desk and coding journey</p>
+          </a>
+
+          <a
+            href="https://medium.com/jacobolenick"
+            className={styles.card}
+          >
+            <h3>Thoughts 📓 &rarr;</h3>
+            <p>
+              I write about programming and tech stuff
+            </p>
+          </a>
+
+      
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="olenickjacob@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Looking for Jr ReactJS Developer position 💡 {' '}
+          click here to reach out for a Jr ReactJS Developer position 💡 {' '}
           
         </a>
       </footer>

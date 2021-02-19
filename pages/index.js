@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           </a>
         </h1>
 
+
   
 
         <p className={styles.description}>
@@ -26,6 +28,14 @@ export default function Home() {
     
 
         <div className={styles.grid}>
+
+
+        <Image
+        src="/image/jake.png"
+        alt="Picture of the author"
+        width={190}
+        height={190}
+      />
         <p className={styles.about}>
         I'm a Full-Stack ReactJS & React Native developer from Las Vegas, NV. I've been passionate about technology my entire life and have been working as a professional UX/UI Designer for over 3 years. I've made the switch into Software Development and attended NuCamp Coding Bootcamp.</p>
 

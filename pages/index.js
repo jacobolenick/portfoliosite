@@ -15,9 +15,13 @@ export default function Home() {
           </a>
         </h1>
 
+  
+
         <p className={styles.description}>
           I'm a ReactJS, React Native Developer{' '}
+          <br/>
           <a href='https://www.github.com/jacobolenick' code className={styles.code}>Check out my GitHub 👨‍💻 </a>
+      
         </p>
     
 

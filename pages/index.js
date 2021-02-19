@@ -32,7 +32,7 @@ export default function Home() {
 
           <a href="https://github.com/jacobolenick/NUCAMPSITE" className={styles.card}>
             <h3>NuCamp Camp Site ⛺️ &rarr;</h3>
-            <p>Our bootcamp project</p>
+            <p>Our bootcamp project we built through the duration of the course</p>
           </a>
 
           <a

@@ -62,7 +62,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://medium.com/jacobolenick"
+            href="https://medium.com/@jacobolenick"
             className={styles.card}
           >
             <h3>Thoughts 📓 &rarr;</h3>

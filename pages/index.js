@@ -81,7 +81,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          click here to reach out for a Jr ReactJS Developer position 💡 {' '}
+          click here to reach out to hire me for a Jr ReactJS Developer position 💡 {' '}
           
         </a>
       </footer>

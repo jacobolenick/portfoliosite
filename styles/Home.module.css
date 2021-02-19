@@ -1,3 +1,5 @@
+
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -23,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #eaeaea;
 }
 
 .footer img {
@@ -36,7 +39,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: hsl(184, 100%, 50%);
   text-decoration: none;
 }
 
@@ -50,16 +53,19 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  color: #eaeaea;
 }
 
 .title,
 .description {
   text-align: center;
+  color: #eaeaea;
 }
 
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  color: #eaeaea;
 }
 
 .code {
@@ -69,6 +75,7 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+    color: black;
 }
 
 .grid {
@@ -95,19 +102,21 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: hsl(184, 100%, 50%);
+  border-color:hsl(184, 100%, 50%);
 }
 
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  color:#eaeaea ;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  color: #eaeaea;
 }
 
 .logo {

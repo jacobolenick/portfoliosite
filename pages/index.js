@@ -5,46 +5,46 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Jacob Olenick | ReactJS Developer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Hi, I'm <a href="https://twitter.com/jacobolenick">Jacob Olenick</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          I'm a ReactJS, React Native Developer{' '}
+          <a href='https://www.github.com/jacobolenick' code className={styles.code}>Check out my GitHub</a>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://github.com/jacobolenick/TaskApp" className={styles.card}>
+            <h3>Task App &rarr;</h3>
+            <p>Keep track of your tasks for the day. Built with ReactJS.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://github.com/jacobolenick/NUCAMPSITE" className={styles.card}>
+            <h3>NuCamp Camp Site &rarr;</h3>
+            <p>Our bootcamp project</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://twitter.com/jacobolenick"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Twitter &rarr;</h3>
+            <p>I post coding realted stuff about my journer.</p>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/jacobmolenick"
+            className={styles.card}
+          >
+            <h3>Linkedin &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Follow me on Linkedin to stay up to date.
             </p>
           </a>
         </div>
@@ -56,8 +56,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          Looking for Jr ReactJS Developer position{' '}
+          
         </a>
       </footer>
     </div>

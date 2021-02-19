@@ -29,6 +29,12 @@ export default function Home() {
         <p className={styles.about}>
         I'm a Full-Stack ReactJS & React Native developer from Las Vegas, NV. I've been passionate about technology my entire life and have been working as a professional UX/UI Designer for over 3 years. I've made the switch into Software Development and attended NuCamp Coding Bootcamp.</p>
 
+        
+        <h2 className={styles.h2}>
+          Projects </h2>
+          
+       
+          <div className={styles.projects}>
           <a href="https://github.com/jacobolenick/TaskApp" className={styles.card}>
             <h3>Task App ✏️ &rarr;</h3>
             <p>Keep track of your tasks for the day. Built with ReactJS.</p>
@@ -39,6 +45,14 @@ export default function Home() {
             <p>Our bootcamp project we built through the duration of the course</p>
           </a>
 
+          </div>
+
+         
+          <h2 className={styles.h2}>
+          Links
+        </h2>
+      
+        <div className={styles.projects}>
           <a
             href="https://twitter.com/jacobolenick"
             className={styles.card}
@@ -74,6 +88,7 @@ export default function Home() {
               I write about programming and tech stuff
             </p>
           </a>
+          </div>
 
       
         </div>

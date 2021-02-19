@@ -90,6 +90,13 @@
   text-align: center;
 }
 
+.h2 {
+  font-size: 30px;
+  color: #eaeaea;
+  
+}
+
+
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -98,6 +105,16 @@
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
     color: black;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
 }
 
 .grid {

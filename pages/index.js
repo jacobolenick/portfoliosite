@@ -5,28 +5,33 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Jacob Olenick | ReactJS Developer</title>
+        <title>✌️ Jacob Olenick | ReactJS Developer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi, I'm <a href="https://twitter.com/jacobolenick">Jacob Olenick</a>
+          Hi, I'm <a href="https://twitter.com/jacobolenick">Jacob Olenick ✌️
+          </a>
         </h1>
 
         <p className={styles.description}>
           I'm a ReactJS, React Native Developer{' '}
-          <a href='https://www.github.com/jacobolenick' code className={styles.code}>Check out my GitHub</a>
+          <a href='https://www.github.com/jacobolenick' code className={styles.code}>Check out my GitHub 👨‍💻 </a>
         </p>
+    
 
         <div className={styles.grid}>
+        <p className={styles.about}>
+        I'm a Full-Stack ReactJS & React Native developer from Las Vegas, NV. I've been passionate about technology my entire life and have been working as a professional UX/UI Designer for over 3 years. I've made the switch into Software Development and attended NuCamp Coding Bootcamp.</p>
+
           <a href="https://github.com/jacobolenick/TaskApp" className={styles.card}>
-            <h3>Task App &rarr;</h3>
+            <h3>Task App ✏️ &rarr;</h3>
             <p>Keep track of your tasks for the day. Built with ReactJS.</p>
           </a>
 
           <a href="https://github.com/jacobolenick/NUCAMPSITE" className={styles.card}>
-            <h3>NuCamp Camp Site &rarr;</h3>
+            <h3>NuCamp Camp Site ⛺️ &rarr;</h3>
             <p>Our bootcamp project</p>
           </a>
 
@@ -34,15 +39,15 @@ export default function Home() {
             href="https://twitter.com/jacobolenick"
             className={styles.card}
           >
-            <h3>Twitter &rarr;</h3>
-            <p>I post coding realted stuff about my journer.</p>
+            <h3>Twitter 🐦 &rarr;</h3>
+            <p>I post coding related stuff about my journey.</p>
           </a>
 
           <a
             href="https://linkedin.com/in/jacobmolenick"
             className={styles.card}
           >
-            <h3>Linkedin &rarr;</h3>
+            <h3>Linkedin 🔗 &rarr;</h3>
             <p>
               Follow me on Linkedin to stay up to date.
             </p>
@@ -56,7 +61,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Looking for Jr ReactJS Developer position{' '}
+          Looking for Jr ReactJS Developer position 💡 {' '}
           
         </a>
       </footer>

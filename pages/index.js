@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -20,7 +21,7 @@ export default function Home() {
   
 
         <p className={styles.description}>
-          I'm a ReactJS, React Native Developer{' '}
+          I'm a ReactJS, React Native Developer.{' '}
           <br/>
           <a href='https://www.github.com/jacobolenick' code className={styles.code}>Check out my GitHub 👨‍💻 </a>
       

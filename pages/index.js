@@ -51,9 +51,9 @@ export default function Home() {
               <p>Keep track of your tasks for the day. Built with ReactJS.</p>
             </a>
 
-            <a href="https://github.com/jacobolenick/NUCAMPSITE" className={styles.card}>
-              <h3>NuCamp Camp Site ⛺️ &rarr;</h3>
-              <p>Our bootcamp project we built through the duration of the course</p>
+            <a href="https://infallible-cray-48f8d6.netlify.app/" className={styles.card}>
+              <h3>Chillout Music App 🎧 &rarr;</h3>
+              <p>A Spotify style website.</p>
             </a>
 
           </div>

@@ -53,7 +53,7 @@ export default function Home() {
 
             <a href="https://infallible-cray-48f8d6.netlify.app/" className={styles.card}>
               <h3>Chillout Music App 🎧 &rarr;</h3>
-              <p>A Spotify style website.</p>
+              <p>A Spotify style website.I love music so thought I'd build something around it.</p>
             </a>
 
           </div>

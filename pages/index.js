@@ -21,7 +21,7 @@ export default function Home() {
 
 
         <p className={styles.description}>
-          I'm a ReactJS, React Native Developer.{' '}
+          I'm a ReactJS & React Native Developer.{' '}
           <br />
           <a href='https://www.github.com/jacobolenick' code className={styles.code}>Check out my GitHub 👨‍💻 </a>
 
@@ -53,7 +53,7 @@ export default function Home() {
 
             <a href="https://infallible-cray-48f8d6.netlify.app/" className={styles.card}>
               <h3>Chillout Music App 🎧 &rarr;</h3>
-              <p>A Spotify style website.I love music so thought I'd build something around it.</p>
+              <p>Spotify style music streaming app. Built with ReactJS</p>
             </a>
 
           </div>

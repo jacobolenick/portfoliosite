@@ -57,7 +57,7 @@ export default function Home() {
             </a>
 
             <a href="https://github.com/jacobolenick/NUCAMPSITE" className={styles.card}>
-              <h3>NuCamp Camp Ground ⛺️ &rarr;</h3>
+              <h3>NuCamp Ground ⛺️ &rarr;</h3>
               <p>Our bootcamp project we worked on. Built with ReactJS</p>
             </a>
 

@@ -51,9 +51,9 @@ export default function Home() {
               <p>Keep track of your tasks for the day. Built with ReactJS.</p>
             </a>
 
-            <a href="https://github.com/jacobolenick/Chillout" className={styles.card}>
-              <h3>Chillout Music App 🎧 &rarr;</h3>
-              <p>Spotify style music streaming app. Built with ReactJS</p>
+            <a href="https://github.com/jacobolenick/nucampapp" className={styles.card}>
+              <h3>NuCamp Mobile App ⛺️ &rarr;</h3>
+              <p>Still Building - Built using React Native</p>
             </a>
 
             <a href="https://github.com/jacobolenick/NUCAMPSITE" className={styles.card}>

@@ -50,9 +50,9 @@ export default function Home() {
 
 
             <div className={styles.projects}>
-              <a href="https://github.com/jacobolenick/TaskApp" className={styles.card}>
-                <h3>Task App ✏️ &rarr;</h3>
-                <p>Keep track of your tasks for the day. Built with ReactJS.</p>
+              <a href="https://nikewebsiteecomm.netlify.app/" className={styles.card}>
+                <h3>Nike Closet 👟 &rarr;</h3>
+                <p>E-Commerce Front-end website built in ReactJS.</p>
               </a>
 
               <a href="https://github.com/jacobolenick/nucampapp" className={styles.card}>

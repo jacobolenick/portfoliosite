@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 import Image from 'next/image'
 
 
@@ -11,7 +11,7 @@ export default function Home() {
           <title>✌️ Jacob Olenick | ReactJS Developer</title>
           <link rel="icon" href="/reactmemoji.svg" />
           <meta name="keywords" content="Full-stack Software Developer"></meta>
-          <meta property="og:image" content={jacobcompsci.jpg}/>
+          {/* <meta property="og:Image" content={jake.png}/> */}
         </Head>
 
         <main className={styles.main}>

@@ -50,7 +50,7 @@ export default function Home() {
 
 
             <div className={styles.projects}>
-              <a href="https://nikewebsiteecomm.netlify.app/" className={styles.card}>
+              <a href="https://nikewebsiteecomm.netlify.app" className={styles.card}>
                 <h3>Nike Closet 👟 &rarr;</h3>
                 <p>E-Commerce Front-end Nike website built in ReactJS.</p>
               </a>

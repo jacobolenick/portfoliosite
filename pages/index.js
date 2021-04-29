@@ -8,10 +8,11 @@ export default function Home() {
  
       <div className={styles.container}>
         <Head>
-          <title>✌️ Jacob Olenick | ReactJS Developer</title>
+          <title>✌️ Jacob Olenick | Front-End & Mobile App Developer</title>
           <link rel="icon" href="/reactmemoji.svg" />
-          <meta name="keywords" content="Full-stack Software Developer"></meta>
+          <meta name="keywords" content="Front-End and Mobile app Developer"></meta>
           {/* <meta property="og:Image" content={jake.png}/> */}
+          
         </Head>
 
         <main className={styles.main}>
@@ -24,7 +25,7 @@ export default function Home() {
 
 
           <p className={styles.description}>
-            I'm a ReactJS & React Native Developer.{' '}
+            I'm a Front-End & Mobile app Developer.{' '}
             <br />
             <br />
             <a href='https://www.github.com/jacobolenick' code className={styles.code}>Check out my GitHub 👨‍💻 </a>
@@ -42,7 +43,7 @@ export default function Home() {
               height={190}
             />
             <p className={styles.about}>
-              I'm a Full-Stack ReactJS & React Native developer from Las Vegas, NV. I've been passionate about technology my entire life and have been working as a professional UX/UI Designer for over 3 years. I've made the switch into Software Development and attended NuCamp Coding Bootcamp.</p>
+              I'm a Front-End React & React Native developer. I've been passionate about technology my entire life and have been working as a professional UX/UI Designer for over 3 years. I've made the switch into Software Development and attended NuCamp Coding Bootcamp.</p>
 
 
             <h2 className={styles.h2}>
@@ -55,9 +56,14 @@ export default function Home() {
                 <p>E-Commerce Front-end Nike website built in ReactJS.</p>
               </a>
 
+              <a href="https://jolly-mirzakhani-f8c6f5.netlify.app/" className={styles.card}>
+                <h3>Coding Tunez 🎧 &rarr;</h3>
+                <p>Music player for coding build with Javascript</p>
+              </a>
+
               <a href="https://github.com/jacobolenick/nucampapp" className={styles.card}>
                 <h3>NuCamp Mobile App ⛺️ &rarr;</h3>
-                <p>Still Building - Built using React Native</p>
+                <p>Still building - Built using React Native</p>
               </a>
 
               <a href="https://github.com/jacobolenick/NUCAMPSITE" className={styles.card}>
@@ -65,10 +71,7 @@ export default function Home() {
                 <p>Our bootcamp project we worked on. Built with ReactJS</p>
               </a>
 
-              <a href="https://github.com/jacobolenick/BullsEye" className={styles.card}>
-                <h3>Bullseye iOS Game 🎯 &rarr;</h3>
-                <p>First coding project I worked on. Built with Swift</p>
-              </a>
+  
 
             </div>
 
@@ -121,7 +124,7 @@ export default function Home() {
 
         <footer className={styles.footer}>
           <a href="mailto: jacob@thatwebstudio.com">
-            click here to reach out to hire me for a Jr ReactJS Developer position 💡 {' '}</a>
+            click here to reach out to hire me for a Jr Front-End Developer position 💡 {' '}</a>
         </footer>
       </div>
   )

@@ -7,13 +7,14 @@ export default function Home() {
   return (
  
       <div className={styles.container}>
-        <Head>
+        {/* <Head>
           <title>✌️ Jacob Olenick | Front-End & Mobile App Developer</title>
           <link rel="icon" href="/reactmemoji.svg" />
           <meta name="keywords" content="Front-End and Mobile app Developer"></meta>
           {/* <meta property="og:Image" content={jake.png}/> */}
           
-        </Head>
+          
+        {/* </Head> */} 
 
         <main className={styles.main}>
           <h1 className={styles.title}>
